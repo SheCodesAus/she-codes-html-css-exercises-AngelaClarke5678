@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
 
 html {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik Wet Paint', sans-serif;
     background-color: #fff;
 }
 
@@ -11,11 +12,16 @@ body {
 
 header {
     text-align: center;
-    background-color: #6b469a;
+    background-color: lightcoral;
     padding: 10px;
+    font-family: arial;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
 }
 
 h1 {
+    font-family: 'Rubik Wet Paint',sans-serif;
     font-size: 2.5rem;
     line-height: 2.5rem;;
     color: #fff;
@@ -28,9 +34,10 @@ h2 {
 }
 
 nav {
-    margin: 10px;
-    padding: 10px;
+    margin: auto;
+    padding: auto;
     background-color: #999999;
+    width: 200px;
 }
 
 a {
@@ -64,3 +71,16 @@ footer {
 }
 
 /* Your code here */
+/* applied to visually identify how they relate together */
+* {
+    border: red solid 1px;
+ }
+nav a {
+    display: block;
+}
+
+#img-cupcake1 {
+    height: 200px;
+    width: 300px;
+    border: 3px dashed orange;
+}

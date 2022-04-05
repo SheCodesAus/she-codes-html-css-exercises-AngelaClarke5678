@@ -1,0 +1,30 @@
+body {
+    background-color: lavender;
+}
+
+div {
+    background-color: peachpuff;
+}
+.list-item {
+    background-color: darkseagreen;
+}
+.main-heading {
+    background-color: lightskyblue;
+}
+#first-paragraph {
+    background-color: lightcoral;
+}
+
+.nav-main {
+    background-color: mediumpurple;
+}
+.nav-main-gold {
+background-color: gold;
+}
+#first-div {
+    background-color: beige;
+}
+/* applied to visually identify how they relate together */
+* {
+    border: red solid 1px;
+ }
