@@ -26,6 +26,7 @@ function showName(){
 function changeColour(colour) {
     // start
     document.body.style.backgroundColor = colour;
+    console.log(colour)
     // end
 }
 
